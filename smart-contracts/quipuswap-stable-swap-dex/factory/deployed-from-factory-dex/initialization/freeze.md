@@ -13,3 +13,9 @@ This method is used only to trigger "unfreeze" of the contract after copying DEX
 Receives `unit` type.
 
 Inverts value of the `started` field of contract. Called only once after setting all lambdas to DEX pool contract.
+
+### Parameters
+
+| Field |  Type  | Description  |
+| ----- | :----: | ------------ |
+| -     | `unit` | Empty param. |

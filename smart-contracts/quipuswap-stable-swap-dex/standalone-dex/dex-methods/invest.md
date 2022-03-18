@@ -1,24 +1,27 @@
 # invest
 
-This entrypoint designed to add liquidity to a specific DEX pool.
+This entrypoint is designed to add liquidity to a specific DEX pool.
 
-This method includes balanced and imbalanced way of investing.
+This method includes a balanced and imbalanced ways of investing.
 
-### Call params
+### Call parameters
+
+| Field       |             Type             | Description                                                                                                              |
+| ----------- | :--------------------------: | ------------------------------------------------------------------------------------------------------------------------ |
+| pool\_id    |             `nat`            | pool identifier                                                                                                          |
+| shares      |             `nat`            | the minimal amount of shares to receive                                                                                  |
+| in\_amounts | `map(token_pool_idx_t, nat)` | map of token amounts to be invested                                                                                      |
+| deadline    |          `timestamp`         | dealine of current operation                                                                                             |
+| receiver    |       `option(address)`      | optional, address of the receiver of the LP tokens. If not provided the `sender` address will be used.                   |
+| referral    |       `option(address)`      | optional, address of the referral of the current operation. If not provided the `default_referral` address will be used. |
 
 ```pascaligo
 type invest_param_t     is [@layout:comb] record [
   pool_id                 : nat; 
-  (* pool identifier *)
   shares                  : nat; 
-  (* the minimal amount of shares to receive *)
   in_amounts              : map(token_pool_idx_t, nat); 
-  (* amount of tokens mapping to be invested *)
   deadline                : timestamp; 
-  (* deadline of operation *)
   receiver                : option(address); 
-  (* receiver of LP tokens. If not provided, sender address will be used *)
   referral                : option(address);
-  (* referral address. If not provided, default_referral address will be used *)
 ]
 ```

@@ -6,13 +6,16 @@ This entrypoint should be called only by `developer` address.&#x20;
 
 This entrypoint is designed to withdraw some of the collected referral rewards by the selected token.
 
-### Call params
+### Call parameters
+
+| Field  |    Type   | Description                 |
+| ------ | :-------: | --------------------------- |
+| token  | `token_t` | `FA2/FA1.2` token to claim. |
+| amount |   `nat`   | amount of tokens to claim.  |
 
 ```pascaligo
 type claim_by_token_param_t is [@layout:comb] record [
   token                   : token_t;
-  (* FA12/FA2 token to withdraw *)
   amount                  : nat;
-  (* amount of tokens to withdraw *)
 ]
 ```

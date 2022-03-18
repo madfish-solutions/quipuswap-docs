@@ -14,15 +14,18 @@ $$A_{storage} = A * n^{n-1}$$
 
 so, if you want to set `A` correctly you should keep it in mind.
 
-### Call params
+### Call parameters
+
+| Field        |     Type    | Description                                |
+| ------------ | :---------: | ------------------------------------------ |
+| pool\_id     | `pool_id_t` | pool identifier.                           |
+| future\_A    |    `nat`    | the target value of "A" constant.          |
+| future\_time | `timestamp` | timestamp when ramping should be finished. |
 
 ```pascaligo
 type ramp_a_param_t     is [@layout:comb] record [
   pool_id                 : nat; 
-  (* pool identifier *)
   future_A                : nat;
-  (* target value of "A" constant *)
-  future_time             : timestamp; 
-  (* time when constant "A" would be reached target value *)
+  future_time             : timestamp;
 ]
 ```

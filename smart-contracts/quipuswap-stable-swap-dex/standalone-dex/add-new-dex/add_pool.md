@@ -6,7 +6,13 @@ This entrypoint allows `admin` creating a new DEX pool.
 Underlying tokens should be approved (updated operators) before calling this method.
 {% endhint %}
 
-### Call params
+### Call parameters
+
+| Field         |                  Type                 | Description                                                |
+| ------------- | :-----------------------------------: | ---------------------------------------------------------- |
+| a\_constant   |                 `nat`                 | "A" constant                                               |
+| input\_tokens |             `set(token_t)`            | set of tokens inside the future pool (from 2 to 4 entries) |
+| tokens\_info  | `map(token_pool_idx_t, token_info_t)` | map of rates config and amount of initial pool reserves    |
 
 ```pascaligo
 type init_param_t       is [@layout:comb] record [
@@ -17,5 +23,5 @@ type init_param_t       is [@layout:comb] record [
 ```
 
 {% hint style="warning" %}
-This contract method are called only by `admin` of that contract.
+This contract method is called only by `admin` of that contract.
 {% endhint %}

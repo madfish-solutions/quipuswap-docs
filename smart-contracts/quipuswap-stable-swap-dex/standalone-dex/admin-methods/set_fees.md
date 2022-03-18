@@ -8,7 +8,12 @@ This entrypoint is designed to update fee rates.
 
 More info about fee storage and precisions, please, read [#fee-storage-fee-rates-record](../storage-and-types-overview.md#fee-storage-fee-rates-record "mention") section.
 
-### Call params
+### Call parameters
+
+| Field    |       Type       | Description                                                                                                            |
+| -------- | :--------------: | ---------------------------------------------------------------------------------------------------------------------- |
+| pool\_id |    `pool_id_t`   | pool identifier.                                                                                                       |
+| fee      | `fees_storage_t` | contains fee rates, percent multiplied by $$10^{10}$$, for liquidity providers, QUIPU token stakers, and for referral. |
 
 ```pascaligo
 type fees_storage_t     is [@layout:comb] record [

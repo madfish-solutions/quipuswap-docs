@@ -8,16 +8,19 @@ Deployed pool searched by sender address (`deployer`) and passed to call tokens 
 Underlying tokens should be approved (updated operators) before calling this method.
 {% endhint %}
 
-### Call params
+### Call parameters
+
+| Field |         Type        | Description                                                     |
+| ----- | :-----------------: | --------------------------------------------------------------- |
+| -     | `start_dex_param_t` | mapping of token index in pool to token type and amount values. |
 
 ```pascaligo
 type input_t_v_t        is [@layout:comb] record [
-  token                   : token_t; // FA12/FA2 token
-  value                   : nat; // amount of token to invest
+  token                   : token_t;
+  value                   : nat;
 ]
 
 type start_dex_param_t  is map(nat, input_t_v_t) 
-(* mapping of token index in pool to token-amount values *)
 ```
 
 {% hint style="warning" %}

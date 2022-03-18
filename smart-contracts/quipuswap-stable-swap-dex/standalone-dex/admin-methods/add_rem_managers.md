@@ -8,11 +8,16 @@ This entrypoint is designed to add or remove manager address.&#x20;
 
 **Manager** - `address`, allowed to change metadata of any LP token.
 
-### Call params
+### Call parameters
+
+| Field     |    Type   | Description                                   |
+| --------- | :-------: | --------------------------------------------- |
+| add       |   `bool`  | `True` to add or `False` to remove candidate. |
+| candidate | `address` | address of the candidate manager.             |
 
 ```pascaligo
 type set_man_param_t    is [@layout:comb] record [
-  add                     : bool; // add or remove flag
-  candidate               : address; // address that need add/remove
+  add                     : bool;
+  candidate               : address;
 ]
 ```

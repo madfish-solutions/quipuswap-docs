@@ -17,3 +17,9 @@ Call param type is `nat` - pool identifier.
 $$A_{storage} = A * n^{n-1}$$
 
 so, if you want to set `A` correctly you should keep it in mind.
+
+### Parameters
+
+| Field |     Type    | Description      |
+| ----- | :---------: | ---------------- |
+| -     | `pool_id_t` | pool identifier. |
