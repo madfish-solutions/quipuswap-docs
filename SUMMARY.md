@@ -104,6 +104,7 @@
           * [set\_price](smart-contracts/quipuswap-stable-swap-dex/factory/developer-methods/factory-management/factory-params/set\_price.md)
           * [set\_whitelist](smart-contracts/quipuswap-stable-swap-dex/factory/developer-methods/factory-management/factory-params/set\_whitelist.md)
         * [🔵 Dev module entrypoints](smart-contracts/quipuswap-stable-swap-dex/developer-module/developer-setter-entrypoints/README.md)
+* [QuipuSwap Protocol Owned Dex Liquidity](smart-contracts/quipuswap-protocol-owned-dex-liquidity.md)
 * [Trusted contracts](smart-contracts/trusted-contracts.md)
 
 ***
