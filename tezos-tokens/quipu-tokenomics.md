@@ -22,7 +22,7 @@ Circulated supply after the second airdrop is 8.4% (6% airdrops, 2.4% other fund
 
 **Token distribution model:**
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 **Token use cases:**
 

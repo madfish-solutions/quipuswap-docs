@@ -104,8 +104,9 @@
           * [set\_price](smart-contracts/quipuswap-stable-swap-dex/factory/developer-methods/factory-management/factory-params/set\_price.md)
           * [set\_whitelist](smart-contracts/quipuswap-stable-swap-dex/factory/developer-methods/factory-management/factory-params/set\_whitelist.md)
         * [🔵 Dev module entrypoints](smart-contracts/quipuswap-stable-swap-dex/developer-module/developer-setter-entrypoints/README.md)
-* [QuipuSwap Protocol Owned Dex Liquidity](smart-contracts/quipuswap-protocol-owned-dex-liquidity/README.md)
-  * [Page 1](smart-contracts/quipuswap-protocol-owned-dex-liquidity/page-1.md)
+* [QuipuSwap Protocol Owned Dex Liquidity](smart-contracts/quipuswap-protocol-owned-dex-liquidity.md)
+  * [NFT Contract](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/README.md)
+    * [Storage and types overview](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/storage-and-types-overview.md)
 * [Trusted contracts](smart-contracts/trusted-contracts.md)
 
 ***
