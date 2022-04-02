@@ -2,7 +2,7 @@
 
 ### Storage
 
-![](<../../../.gitbook/assets/image (4).png>)
+![](<../../../.gitbook/assets/image (6).png>)
 
 ### storage\_t
 
