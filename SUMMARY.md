@@ -117,7 +117,7 @@
         * [Mint](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/owner-methods/mint.md)
       * [⚜ Fa2 methods](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/fa2-methods/README.md)
         * [Transfer](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/fa2-methods/transfer.md)
-        * [Copy of Copy of Add\_minter](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/fa2-methods/copy-of-copy-of-add\_minter.md)
+        * [Update\_operators](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/fa2-methods/update\_operators.md)
         * [Copy of Copy of Remove\_minter](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/fa2-methods/copy-of-copy-of-remove\_minter.md)
         * [Copy of Copy of Add\_collection](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/fa2-methods/copy-of-copy-of-add\_collection.md)
 * [Trusted contracts](smart-contracts/trusted-contracts.md)
