@@ -23,7 +23,7 @@ await operation.confirmation();
 
 ### Post conditions
 
-![](<../../../../../.gitbook/assets/image (2).png>)
+![](<../../../../../.gitbook/assets/image (10).png>)
 
 ### Errors
 
