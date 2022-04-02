@@ -107,6 +107,9 @@
 * [QuipuSwap Protocol Owned Dex Liquidity](smart-contracts/quipuswap-protocol-owned-dex-liquidity.md)
   * [NFT Contract](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/README.md)
     * [Storage and types overview](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/storage-and-types-overview.md)
+    * [Entrypoints overview](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/README.md)
+      * [🛑 Owner methods](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/owner-methods/README.md)
+        * [Change\_owner](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/owner-methods/change\_owner.md)
 * [Trusted contracts](smart-contracts/trusted-contracts.md)
 
 ***
