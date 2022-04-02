@@ -1,4 +1,4 @@
-# Change\_owner
+# Copy of Change\_owner
 
 This method is used to change the contract ownership.
 

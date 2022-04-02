@@ -109,10 +109,15 @@
     * [Storage and types overview](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/storage-and-types-overview.md)
     * [Entrypoints overview](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/README.md)
       * [🛑 Owner methods](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/owner-methods/README.md)
-        * [Change\_owner](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/owner-methods/change\_owner.md)
+        * [Mint](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/owner-methods/mint.md)
         * [Add\_minter](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/owner-methods/add\_minter.md)
         * [Remove\_minter](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/owner-methods/remove\_minter.md)
         * [Add\_collection](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/owner-methods/add\_collection.md)
+      * [💰 Minter methods](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/minter-methods/README.md)
+        * [Copy of Change\_owner](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/minter-methods/copy-of-change\_owner.md)
+        * [Copy of Add\_minter](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/minter-methods/copy-of-add\_minter.md)
+        * [Copy of Remove\_minter](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/minter-methods/copy-of-remove\_minter.md)
+        * [Copy of Add\_collection](smart-contracts/quipuswap-protocol-owned-dex-liquidity/nft-contract/entrypoints-overview/minter-methods/copy-of-add\_collection.md)
 * [Trusted contracts](smart-contracts/trusted-contracts.md)
 
 ***
