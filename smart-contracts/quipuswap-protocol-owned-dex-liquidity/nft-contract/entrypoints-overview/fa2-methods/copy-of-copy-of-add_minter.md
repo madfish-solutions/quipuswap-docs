@@ -1,4 +1,4 @@
-# Copy of Add\_minter
+# Copy of Copy of Add\_minter
 
 This method is used to add NFT minter.
 
@@ -23,7 +23,7 @@ await operation.confirmation();
 
 ### Post conditions
 
-![](<../../../../../.gitbook/assets/image (11).png>)
+![](<../../../../../.gitbook/assets/image (11) (1).png>)
 
 ### Errors
 

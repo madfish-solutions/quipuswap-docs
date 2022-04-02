@@ -1,4 +1,4 @@
-# Copy of Add\_collection
+# Copy of Copy of Add\_collection
 
 This method is used to add new NFT collection.
 

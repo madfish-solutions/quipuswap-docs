@@ -1,4 +1,4 @@
-# Copy of Remove\_minter
+# Copy of Copy of Remove\_minter
 
 This method is used to remove NFT minter.
 
