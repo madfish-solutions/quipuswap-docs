@@ -4,9 +4,9 @@ This method is used to **Add** or **Remove** balance operator. Operator is a Tez
 
 ### Call parameters
 
-| Name                        | Type                                                                         | Description                   |
-| --------------------------- | ---------------------------------------------------------------------------- | ----------------------------- |
-| update\_operator\_params\_t | list([update\_operator\_param\_t](copy-of-copy-of-add\_minter.md#undefined)) | List of update operator param |
+| Name                        | Type                                                               | Description                   |
+| --------------------------- | ------------------------------------------------------------------ | ----------------------------- |
+| update\_operator\_params\_t | list([update\_operator\_param\_t](update\_operators.md#undefined)) | List of update operator param |
 
 ![](<../../../../../.gitbook/assets/image (12).png>)
 

@@ -1,11 +1,11 @@
-# 🛑 Copy of Owner methods
+# 🛑 Owner methods
 
 {% hint style="warning" %}
 These entrypoints can be called only by `owner` address that is set in the storage of the contract.
 {% endhint %}
 
-{% content-ref url="../../../nft-contract/entrypoints-overview/minter-methods/copy-of-change_owner.md" %}
-[copy-of-change\_owner.md](../../../nft-contract/entrypoints-overview/minter-methods/copy-of-change\_owner.md)
+{% content-ref url="../../../nft-contract/entrypoints-overview/owner-methods/change_owner.md" %}
+[change\_owner.md](../../../nft-contract/entrypoints-overview/owner-methods/change\_owner.md)
 {% endcontent-ref %}
 
 {% content-ref url="../../../nft-contract/entrypoints-overview/owner-methods/add_minter.md" %}

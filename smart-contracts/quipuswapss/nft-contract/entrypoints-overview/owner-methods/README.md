@@ -4,8 +4,8 @@
 These entrypoints can be called only by `owner` address that is set in the storage of the contract.
 {% endhint %}
 
-{% content-ref url="../minter-methods/copy-of-change_owner.md" %}
-[copy-of-change\_owner.md](../minter-methods/copy-of-change\_owner.md)
+{% content-ref url="change_owner.md" %}
+[change\_owner.md](change\_owner.md)
 {% endcontent-ref %}
 
 {% content-ref url="add_minter.md" %}
