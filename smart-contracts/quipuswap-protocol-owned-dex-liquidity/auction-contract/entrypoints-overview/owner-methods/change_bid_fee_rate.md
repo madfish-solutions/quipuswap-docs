@@ -1,12 +1,12 @@
-# Copy of Remove\_minter
+# Change\_bid\_fee\_rate
 
 This method is used to remove NFT minter.
 
 ### Call parameters
 
-| Field  | Type    | Description                     |
-| ------ | ------- | ------------------------------- |
-| minter | address | Address of minter to be deleted |
+| Field               | Type | Description        |
+| ------------------- | ---- | ------------------ |
+| new\_bid\_fee\_rate | nat  | New bid fee amount |
 
 ### Usage
 

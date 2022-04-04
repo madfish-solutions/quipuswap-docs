@@ -1,9 +1,9 @@
-# 📡 Copy of Entrypoints overview
+# 📡 Entrypoints overview
 
-**NFT** contract have 3 groups of entrypoints:
+**Auction** contract have 2 groups of entrypoints:
 
-{% content-ref url="../../nft-contract/entrypoints-overview/owner-methods/" %}
-[owner-methods](../../nft-contract/entrypoints-overview/owner-methods/)
+{% content-ref url="owner-methods/" %}
+[owner-methods](owner-methods/)
 {% endcontent-ref %}
 
 {% content-ref url="../../nft-contract/entrypoints-overview/minter-methods/" %}
