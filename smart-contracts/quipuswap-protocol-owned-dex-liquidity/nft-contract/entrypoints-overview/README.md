@@ -1,4 +1,4 @@
-# Entrypoints overview
+# 📡 Entrypoints overview
 
 **NFT** contract have 3 groups of entrypoints:
 

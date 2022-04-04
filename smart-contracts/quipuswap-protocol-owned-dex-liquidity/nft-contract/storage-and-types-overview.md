@@ -1,4 +1,4 @@
-# Storage and types overview
+# 💾 Storage and types overview
 
 ### Storage
 

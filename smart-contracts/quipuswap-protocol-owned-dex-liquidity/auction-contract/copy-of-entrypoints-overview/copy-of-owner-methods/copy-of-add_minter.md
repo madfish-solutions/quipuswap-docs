@@ -1,4 +1,4 @@
-# Add\_minter
+# Copy of Add\_minter
 
 This method is used to add NFT minter.
 

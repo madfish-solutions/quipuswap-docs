@@ -1,4 +1,4 @@
-# Transfer
+# Copy of Transfer
 
 This method is used to transfer NFT.
 
@@ -10,17 +10,17 @@ In order for the transfer to be performed by a trusted operator, you must first 
 
 ![](<../../../../../.gitbook/assets/image (5).png>)
 
-| Field               | Type                                                       | Description   |
-| ------------------- | ---------------------------------------------------------- | ------------- |
-| transfer\_params\_t | list([transfer\_param\_t](transfer.md#transfer\_param\_t)) | NFT recipient |
+| Field               | Type                                                               | Description   |
+| ------------------- | ------------------------------------------------------------------ | ------------- |
+| transfer\_params\_t | list([transfer\_param\_t](copy-of-transfer.md#transfer\_param\_t)) | NFT recipient |
 
 ### transfer\_param\_t
 
-| Field  | Type                                                                                       | Description                             |
-| ------ | ------------------------------------------------------------------------------------------ | --------------------------------------- |
-| from\_ | <mark style="color:red;">address</mark>                                                    | Account from which the transfer is made |
-| txs    | <mark style="color:yellow;">list</mark>([transfer\_destination\_t](transfer.md#undefined)) | List with transactions                  |
-|        |                                                                                            |                                         |
+| Field  | Type                                                                                               | Description                             |
+| ------ | -------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| from\_ | <mark style="color:red;">address</mark>                                                            | Account from which the transfer is made |
+| txs    | <mark style="color:yellow;">list</mark>([transfer\_destination\_t](copy-of-transfer.md#undefined)) | List with transactions                  |
+|        |                                                                                                    |                                         |
 
 ### transfer\_destination\_t
 

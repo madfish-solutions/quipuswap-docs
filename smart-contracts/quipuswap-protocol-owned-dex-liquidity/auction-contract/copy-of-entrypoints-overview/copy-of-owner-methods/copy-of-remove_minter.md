@@ -1,12 +1,12 @@
-# Add\_minter
+# Copy of Remove\_minter
 
-This method is used to add NFT minter.
+This method is used to remove NFT minter.
 
 ### Call parameters
 
-| Field       | Type    | Description        |
-| ----------- | ------- | ------------------ |
-| new\_minter | address | New minter address |
+| Field  | Type    | Description                     |
+| ------ | ------- | ------------------------------- |
+| minter | address | Address of minter to be deleted |
 
 ### Usage
 
@@ -15,7 +15,7 @@ This method is used to add NFT minter.
 const nftAddress = "KT1...";
 const newMinter = "tz1YZYyXbRuSDnHrYJhugF7KhUojq3rtCyFc";
 const nftContract = await tezos.contract.at(nftAddress);
-const operation = await nftContract.methods.add_minter(newMinter).send();
+const operation = await nftContract.methods.remove_minter(newMinter).send();
 
 await operation.confirmation();
 ```
@@ -23,7 +23,7 @@ await operation.confirmation();
 
 ### Post conditions
 
-![](<../../../../../.gitbook/assets/image (11) (1) (1) (1).png>)
+![](<../../../../../.gitbook/assets/image (12) (1).png>)
 
 ### Errors
 
