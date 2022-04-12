@@ -2,7 +2,7 @@
 
 ## About
 
-Stable DEX is a part of the growing QuipuSwap ecosystem for price-efficient and low-risk stablecoin or equal-price token trading. We intend to create a solution for the Tezos ecosystem akin to that Curve and Ellipsis have created for Ethereum and BSC, respectively.
+Stable DEX, as a part of the growing QuipuSwap ecosystem, provides a platform for price-efficient and low-risk stablecoin or equal-price token trading. We intend to create a solution for the Tezos ecosystem akin to that Curve and Ellipsis have created for Ethereum and BSC, respectively.
 
 {% embed url="https://github.com/madfish-solutions/quipuswap-stable-core" %}
 Code of contracts
