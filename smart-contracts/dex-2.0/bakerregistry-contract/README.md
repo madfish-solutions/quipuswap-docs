@@ -1,0 +1,3 @@
+# 🥐 BakerRegistry contract
+
+The main purpose of this contract is registration and validation of bakers before voting during [_**launch\_exchange**_](../dexcore-contract/entrypoints-overview/dex-entrypoints/launch\_exchange.md)_,_ [_**invest\_liquidity**_](../dexcore-contract/entrypoints-overview/dex-entrypoints/invest\_liquidity.md)_,_ [_**divest\_liquidity**_](../dexcore-contract/entrypoints-overview/dex-entrypoints/divest\_liquidity.md), [_**transfer**_](../dexcore-contract/entrypoints-overview/fa2-entrypoints/transfer.md) and [_**vote**_](../dexcore-contract/entrypoints-overview/dex-entrypoints/vote.md) operations.
