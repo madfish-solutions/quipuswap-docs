@@ -24,3 +24,4 @@ await operation.confirmation();
 
 * `401` - `sender` of the transaction is not current pending administrator (not the address that was assigned by the current administrator to the shift).
 * `411` - `pending_admin` in the storage is `None` (admin didn't call [_**set\_admin**_](set\_admin.md) entrypoint).
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).

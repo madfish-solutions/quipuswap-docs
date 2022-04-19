@@ -56,3 +56,4 @@ await operation.confirmation();
 ### Errors
 
 * `136` - reentrancy.
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).

@@ -65,3 +65,4 @@ Only [DexCore](../../) contract can call this entrypoint.
 * `129` - wrong amount of flash swap returns.
 * `138` - only entered (transaction must be not the first transaction in the chain of calls).
 * `403` - `sender` of the transaction is not [DexCore](../../) contract.
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).

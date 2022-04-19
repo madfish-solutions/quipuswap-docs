@@ -43,4 +43,6 @@ await operation.confirmation();
 * `304` - auction with the specified ID not found.
 * `308` - user's bid is less than minimum bid for an auction launch or less that previous bid.
 * `309` - auction is already finished or rewards are already claimed.
+* `311` - sender of a transaction isn't an account address (not `tz` address).
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).
 * `FA2_NOT_OPERATOR` - [Auction](../../) contract is not an `operator` for users' QUIPU tokens.

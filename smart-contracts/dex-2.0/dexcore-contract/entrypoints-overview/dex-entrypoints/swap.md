@@ -97,3 +97,4 @@ await operation.confirmation();
 * `136` - reentrancy.
 * `139` - too few swaps.
 * `144` - action outdated (the time until which the transaction remained valid was passed).
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint). Only in case of swapping NOT from TEZ token.

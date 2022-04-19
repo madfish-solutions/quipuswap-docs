@@ -23,3 +23,4 @@ Only [DexCore](../../dexcore-contract/) contract can call this entrypoint.
 ### Errors
 
 * `403` - `sender` of the transaction is not [DexCore](../../dexcore-contract/) contract.
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).

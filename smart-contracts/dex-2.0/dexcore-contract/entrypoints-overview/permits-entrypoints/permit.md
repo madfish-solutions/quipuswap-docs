@@ -71,5 +71,6 @@ await operation.confirmation();
 
 ### Errors
 
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).
 * `DUP_PERMIT` - user is trying to create duplicate of an existing permit.
 * `MISSIGNED` - incorrect signature of a permit.

@@ -67,6 +67,7 @@ await operation.confirmation();
 ### Errors
 
 * `136` - reentrancy.
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).
 * `FA2_TOKEN_UNDEFINED` - token with `token_id` doesn't exist.
 * `FA2_NOT_OPERATOR` - `sender` is not `operator` of `from_` account or permit for transfer doesn't exist.
 * `FA2_INSUFFICIENT_BALANCE` - transfer `amount` is greater than account `from_` balance.

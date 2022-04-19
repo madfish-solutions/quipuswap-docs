@@ -115,4 +115,5 @@ function lambda(const _ : unit) : list(operation) is
 * `130` - referring on yourself is forbidden.
 * `136` - reentrancy.
 * `144` - action outdated (the time until which the transaction remained valid was passed).
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).
 * all errors from the [_**flash\_swap\_callback**_](../callbacks/flash\_swap\_callback.md) entrypoint.

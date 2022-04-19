@@ -67,4 +67,5 @@ const result = await dexCore.contract.views
 
 ### Errors
 
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).
 * `FA2_TOKEN_UNDEFINED` - token with `token_id` doesn't exist.

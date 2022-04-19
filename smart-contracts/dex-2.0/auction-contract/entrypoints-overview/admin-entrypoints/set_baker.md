@@ -26,4 +26,5 @@ await operation.confirmation();
 ### Errors
 
 * `400` - `sender` of the transaction is not current administrator.
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).
 * operation also fails when the `option(key_hash)` parameter is not a registered delegate (standard Tezos error).

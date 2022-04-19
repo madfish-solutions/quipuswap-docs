@@ -25,4 +25,5 @@ await operation.confirmation();
 
 ### Errors
 
-The operation fails when the key\_hash parameter is not a registered delegate (standard Tezos error).
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).
+* the operation fails when the key\_hash parameter is not a registered delegate (standard Tezos error).

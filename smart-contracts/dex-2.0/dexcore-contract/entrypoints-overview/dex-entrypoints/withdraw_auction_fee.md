@@ -59,4 +59,5 @@ await operation.confirmation();
 
 * `108` - pair (pool) with the specified `token_id` not listed.
 * `136` - reentrancy.
-* `143` - `pair_id` parameter not provided (in case of withdrawing TEZ tokens).&#x20;
+* `143` - `pair_id` parameter not provided (in case of withdrawing TEZ tokens).
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).

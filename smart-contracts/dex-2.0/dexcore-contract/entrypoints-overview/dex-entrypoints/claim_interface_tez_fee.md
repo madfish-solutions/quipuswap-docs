@@ -42,3 +42,4 @@ await operation.confirmation();
 * `113` - a [Bucket](../../../bucket-contract/) contract not found (not TOK/TEZ LP pair).
 * `136` - reentrancy.
 * `409` - TEZ tokens receiver contract not found (not user account or contract doesn't have a `default` entrypoint).
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).

@@ -61,3 +61,4 @@ await operation.confirmation();
 * `136` - reentrancy.
 * `142` - wrong reserves state after execution of the operation.
 * `144` - action outdated (the time until which the transaction remained valid was passed).
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).

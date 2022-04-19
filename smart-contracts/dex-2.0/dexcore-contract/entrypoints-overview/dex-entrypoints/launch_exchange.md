@@ -109,3 +109,4 @@ await operation.confirmation();
 * `120` - wrong TEZ amount were passed to the transaction.
 * `136` - reentrancy.
 * `144` - action outdated (the time until which the transaction remained valid was passed).
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint). Only in case of launching of TOK/TOK liquidity pools (pairs).

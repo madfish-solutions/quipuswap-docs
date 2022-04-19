@@ -42,3 +42,4 @@ await operation.confirmation();
 * `113` - a [Bucket](../../../bucket-contract/) contract not found (not TOK/TEZ LP pair).
 * `136` - reentrancy.
 * `140` - can't perform voting because of zero LPs balance of the user.
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).

@@ -63,4 +63,5 @@ await operation.confirmation();
 * `305` - token for auction is whitelisted. It is not possible to start an auction with whitelisted tokens.
 * `307` - [Auction](../../) contract have insufficient balance of tokens for a new auction launch.
 * `308` - user's bid is less than minimum bid for an auction launch or less that previous bid.
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).
 * `FA2_NOT_OPERATOR` - [Auction](../../) contract is not an `operator` for users' QUIPU tokens.

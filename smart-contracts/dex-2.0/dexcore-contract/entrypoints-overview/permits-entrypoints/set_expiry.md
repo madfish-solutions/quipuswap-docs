@@ -44,5 +44,6 @@ await operation.confirmation();
 
 ### Errors
 
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).
 * `NOT_PERMIT_ISSUER` - a user is not an issuer of the permit.
 * `EXPIRY_TOO_BIG` - expiry from parameters is bigger than maximum available expiry (`31 556 995 200` seconds or `1000` years).

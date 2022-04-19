@@ -56,3 +56,4 @@ await operation.confirmation();
 * `108` - pair (pool) with the specified `token_id` not listed.
 * `113` - a [Bucket](../../../bucket-contract/) contract not found (not TOK/TEZ LP pair).
 * `400` - `sender` of the transaction is not current administrator.
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).

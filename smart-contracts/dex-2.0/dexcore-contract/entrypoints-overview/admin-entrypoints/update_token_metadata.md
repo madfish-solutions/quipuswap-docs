@@ -62,3 +62,4 @@ await operation.confirmation();
 
 * `108` - pair (pool) with the specified `token_id` not listed.
 * `402` - `sender` of the transaction is not a manager.
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).

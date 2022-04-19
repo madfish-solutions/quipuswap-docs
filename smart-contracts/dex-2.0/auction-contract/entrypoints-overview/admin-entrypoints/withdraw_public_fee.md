@@ -59,3 +59,4 @@ await operation.confirmation();
 
 * `306` - token for withdrawing is NOT whitelisted.
 * `400` - `sender` of the transaction is not current administrator.
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).

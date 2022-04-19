@@ -59,5 +59,6 @@ await operation.confirmation();
 
 ### Errors
 
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).
 * `FA2_TOKEN_UNDEFINED` - token with `token_id` doesn't exist.
 * `FA2_NOT_OWNER` - `sender` is not `owner` of account.

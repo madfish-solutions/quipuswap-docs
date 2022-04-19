@@ -69,6 +69,7 @@ All errors in the project are represented as string codes. The main purpose of t
 * `308` - user's bid is less than minimum bid for an auction launch or less that previous bid.
 * `309` - auction is already finished or rewards are already claimed.
 * `310` - auction is not finished.
+* `311` - sender of a transaction isn't an account address (not `tz` address).
 
 ### Common errors
 
@@ -84,3 +85,4 @@ All errors in the project are represented as string codes. The main purpose of t
 * `409` - TEZ tokens receiver contract not found (not user account or contract doesn't have a `default` entrypoint).
 * `410` - [_**fill**_](bucket-contract/entrypoints-overview/fill.md) entrypoint of [Bucket](bucket-contract/) contract isn't found.
 * `411` - `pending_admin` in the storage of a contract is `None` (admin didn't call _**set\_admin**_ entrypoint).
+* `412` - non payable entrypoint (can't accept TEZ tokens during call of an entrypoint).
