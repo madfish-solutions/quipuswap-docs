@@ -69,7 +69,7 @@ All errors in the project are represented as string codes. The main purpose of t
 * `308` - user's bid is less than minimum bid for an auction launch or less that previous bid.
 * `309` - auction is already finished or rewards are already claimed.
 * `310` - auction is not finished.
-* `311` - sender of a transaction isn't an account address (not `tz` address).
+* `311` - wrong auction duration (less than or equal to 0).
 
 ### Common errors
 

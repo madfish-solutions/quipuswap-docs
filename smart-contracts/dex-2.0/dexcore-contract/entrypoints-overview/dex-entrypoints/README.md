@@ -1,6 +1,6 @@
 # DEX entrypoints
 
-DEX contract consists of 10 main entrypoints:
+DEX contract consists of 9 main entrypoints:
 
 {% content-ref url="launch_exchange.md" %}
 [launch\_exchange.md](launch\_exchange.md)
@@ -12,10 +12,6 @@ DEX contract consists of 10 main entrypoints:
 
 {% content-ref url="divest_liquidity.md" %}
 [divest\_liquidity.md](divest\_liquidity.md)
-{% endcontent-ref %}
-
-{% content-ref url="flash_swap.md" %}
-[flash\_swap.md](flash\_swap.md)
 {% endcontent-ref %}
 
 {% content-ref url="swap.md" %}

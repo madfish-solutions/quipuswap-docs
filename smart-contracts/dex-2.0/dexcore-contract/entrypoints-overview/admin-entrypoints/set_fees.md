@@ -1,6 +1,6 @@
 # set\_fees
 
-An entrypoint that setups interface fee, swap fee, and auction fee that applies in time of each [_**swap**_](../dex-entrypoints/swap.md) or [_**flash\_swap**_](../dex-entrypoints/flash\_swap.md)**.** Also it setups a reward for withdrawing auction fee that applies in time of calling [_**withdraw\_auction\_fee**_](../dex-entrypoints/withdraw\_auction\_fee.md) entrypoint by any user.
+An entrypoint that setups interface fee, swap fee, and auction fee that applies in time of each [_**swap**_](../dex-entrypoints/swap.md) or [_**flash\_swap**_](../dex-entrypoints/swap.md)**.** Also it setups a reward for withdrawing auction fee that applies in time of calling [_**withdraw\_auction\_fee**_](../dex-entrypoints/withdraw\_auction\_fee.md) entrypoint by any user.
 
 ### Call parameters
 

@@ -76,7 +76,7 @@ type fees_t             is [@layout:comb] record [
 | admin                    | address                                                               |                                 | Administrator of the contract                                                                                                                                                                                                                      |
 | pending\_admin           | option(address)                                                       |                                 | Pending administrator that should accept his new administrator role (if he is not `None`)                                                                                                                                                          |
 | dex\_core                | address                                                               |                                 | [DexCore](../dexcore-contract/) contract address                                                                                                                                                                                                   |
-| bid\_fee\_balance        | nat                                                                   |                                 | Bid fee balance in [QuipuSwap Governance token](https://tzkt.io/KT193D4vozYnhGJQVtw7CoxxqphqUEEwK6Vb/operations/) that were withdrawn from each bid. Can be [burned](entrypoints-overview/admin-entrypoints/burn\_bid\_fee.md) by an administrator |
+| bid\_fee\_balance\_f     | nat                                                                   | Float value multiplied by 1e+18 | Bid fee balance in [QuipuSwap Governance token](https://tzkt.io/KT193D4vozYnhGJQVtw7CoxxqphqUEEwK6Vb/operations/) that were withdrawn from each bid. Can be [burned](entrypoints-overview/admin-entrypoints/burn\_bid\_fee.md) by an administrator |
 | auctions\_count          | nat                                                                   |                                 | Number of auctions created by all users                                                                                                                                                                                                            |
 | auction\_duration        | nat                                                                   |                                 | Duration of each auction that will be created. Can be [changed](entrypoints-overview/admin-entrypoints/set\_auction\_duration.md) by an administrator                                                                                              |
 | min\_bid                 | nat                                                                   |                                 | Minimum possible bid in time of auction launch. Can be [changed](entrypoints-overview/admin-entrypoints/set\_min\_bid.md) by an administrator                                                                                                      |
@@ -93,7 +93,7 @@ type storage_t          is [@layout:comb] record [
   admin                   : address;
   pending_admin           : option(address);
   dex_core                : address;
-  bid_fee_balance         : nat;
+  bid_fee_balance_f       : nat;
   auctions_count          : nat;
   auction_duration        : int;
   min_bid                 : nat;

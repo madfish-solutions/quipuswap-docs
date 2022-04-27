@@ -8,17 +8,13 @@ An entrypoint that updates users' global rewards. Also it updates the rewards of
 type withdraw_rewards_t is [@layout:comb] record [
   receiver                : contract(unit);
   user                    : address;
-  current_balance         : nat;
-  new_balance             : nat;
 ]
 ```
 
-| Field            | Type           | Description                             |
-| ---------------- | -------------- | --------------------------------------- |
-| receiver         | contract(unit) | Receiver of TEZ tokens                  |
-| user             | address        | User whose rewards need to be withdrawn |
-| current\_balance | nat            | User's current LP tokens balance        |
-| new\_balance     | nat            | User's new LP tokens balance            |
+| Field    | Type           | Description                             |
+| -------- | -------------- | --------------------------------------- |
+| receiver | contract(unit) | Receiver of TEZ tokens                  |
+| user     | address        | User whose rewards need to be withdrawn |
 
 ### Usage
 

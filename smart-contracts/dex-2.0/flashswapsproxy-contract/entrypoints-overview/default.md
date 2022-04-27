@@ -1,6 +1,6 @@
 # default
 
-An entrypoint that accepts users' lambdas during a [_**flash\_swap**_](../../dexcore-contract/entrypoints-overview/dex-entrypoints/flash\_swap.md) operations on [_**DexCore**_](../../dexcore-contract/) contract and executes them.
+An entrypoint that accepts users' lambdas during a [_**flash\_swap**_](../../dexcore-contract/entrypoints-overview/dex-entrypoints/swap.md) operations on [_**DexCore**_](../../dexcore-contract/) contract and executes them.
 
 ### Call parameters
 

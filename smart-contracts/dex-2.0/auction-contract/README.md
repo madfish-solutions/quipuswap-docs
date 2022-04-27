@@ -1,6 +1,6 @@
 # ⚖ Auction contract
 
-In time of each [_**swap**_](../dexcore-contract/entrypoints-overview/dex-entrypoints/swap.md) or [_**flash\_swap**_](../dexcore-contract/entrypoints-overview/dex-entrypoints/flash\_swap.md) operation [DexCore](../dexcore-contract/) contract collects _**auction\_fee**_. Anyone can call a method to send this fee to this Auction contract ([_**withdraw\_auction\_fee**_](../dexcore-contract/entrypoints-overview/dex-entrypoints/withdraw\_auction\_fee.md) entrypoint on [DexCore](../dexcore-contract/) contract) and earn a percentage of the money sent.
+In time of each [_**swap**_](../dexcore-contract/entrypoints-overview/dex-entrypoints/swap.md) or [_**flash\_swap**_](../dexcore-contract/entrypoints-overview/dex-entrypoints/swap.md) operation [DexCore](../dexcore-contract/) contract collects _**auction\_fee**_. Anyone can call a method to send this fee to this Auction contract ([_**withdraw\_auction\_fee**_](../dexcore-contract/entrypoints-overview/dex-entrypoints/withdraw\_auction\_fee.md) entrypoint on [DexCore](../dexcore-contract/) contract) and earn a percentage of the money sent.
 
 All the money that comes to this Auction contract is distributed into two funds: dev, which can be withdrawn by the administrator at any time, and public.
 

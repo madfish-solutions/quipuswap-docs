@@ -155,7 +155,6 @@
         * [launch\_exchange](smart-contracts/dex-2.0/dexcore-contract/entrypoints-overview/dex-entrypoints/launch\_exchange.md)
         * [invest\_liquidity](smart-contracts/dex-2.0/dexcore-contract/entrypoints-overview/dex-entrypoints/invest\_liquidity.md)
         * [divest\_liquidity](smart-contracts/dex-2.0/dexcore-contract/entrypoints-overview/dex-entrypoints/divest\_liquidity.md)
-        * [flash\_swap](smart-contracts/dex-2.0/dexcore-contract/entrypoints-overview/dex-entrypoints/flash\_swap.md)
         * [swap](smart-contracts/dex-2.0/dexcore-contract/entrypoints-overview/dex-entrypoints/swap.md)
         * [withdraw\_profit](smart-contracts/dex-2.0/dexcore-contract/entrypoints-overview/dex-entrypoints/withdraw\_profit.md)
         * [claim\_interface\_fee](smart-contracts/dex-2.0/dexcore-contract/entrypoints-overview/dex-entrypoints/claim\_interface\_fee.md)
