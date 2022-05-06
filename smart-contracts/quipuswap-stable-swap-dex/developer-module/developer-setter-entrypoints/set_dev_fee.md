@@ -8,6 +8,6 @@ Fee stored as float value multiplied by `fee_denominator` = $$10^{10}$$
 
 ### Parameters
 
-| Field |  Type | Description                                                                                                                          |
-| ----- | :---: | ------------------------------------------------------------------------------------------------------------------------------------ |
-| -     | `nat` | Developer fee value. This value is a percent from value (where $$10^{10} = 100\%$$). Dev fee percent couldn't be more than $$50\%$$. |
+| Field |  Type | Description                                                                                                                 |
+| ----- | :---: | --------------------------------------------------------------------------------------------------------------------------- |
+| -     | `nat` | Developer fee value. This value is a percent from value (where $$10^{10} = 100\%$$). Dev fee percent is less than $$50\%$$. |

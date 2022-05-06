@@ -10,6 +10,6 @@ Accepts `nat` value - percent of price to burn multiplied by `100_0000n`.
 
 ### Parameters
 
-| Field |  Type | Description                                                      |
-| ----- | :---: | ---------------------------------------------------------------- |
-| -     | `nat` | percent of price to burn (float value) multiplied by `100_0000n` |
+| Field |  Type | Description                                                        |
+| ----- | :---: | ------------------------------------------------------------------ |
+| -     | `nat` | percent of price to burn (decimal value) multiplied by `100_0000n` |

@@ -43,11 +43,11 @@ type staker_accum_t     is [@layout:comb] record [
 
 ### Fee storage - fee rates record
 
-| Field   |  Type | Hint                                    | Description                                                                                                                                                                                                                |
-| ------- | :---: | --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| lp      | `nat` | Float value. Multiplied by $$10^{10}$$. | <p>Percent of fee goes to liquidity providers.</p><p>This fee stays in liquidity pool to increase LP token price.</p>                                                                                                      |
-| stakers | `nat` | Float value. Multiplied by $$10^{10}$$. | Percent of fee goes to QUIPU token stakers of pool. This fee goes to staking accumulator and spreads between users who staked QUIPU token to pool. If noone staked this fee part goes to liquidity pool as additional fee. |
-| ref     | `nat` | Float value. Multiplied by $$10^{10}$$. | Percent of fee goes to referral of DEX call. This fee goes to referral address passed to DEX call. If referral not passed, fee goes to default referral.                                                                   |
+| Field   |  Type | Hint                                      | Description                                                                                                                                                                                                                |
+| ------- | :---: | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| lp      | `nat` | Decimal value. Multiplied by $$10^{10}$$. | <p>Percent of fee goes to liquidity providers.</p><p>This fee stays in liquidity pool to increase LP token price.</p>                                                                                                      |
+| stakers | `nat` | Decimal value. Multiplied by $$10^{10}$$. | Percent of fee goes to QUIPU token stakers of pool. This fee goes to staking accumulator and spreads between users who staked QUIPU token to pool. If noone staked this fee part goes to liquidity pool as additional fee. |
+| ref     | `nat` | Decimal value. Multiplied by $$10^{10}$$. | Percent of fee goes to referral of DEX call. This fee goes to referral address passed to DEX call. If referral not passed, fee goes to default referral.                                                                   |
 
 ```pascaligo
 type fees_storage_t     is [@layout:comb] record [

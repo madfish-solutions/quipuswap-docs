@@ -16,11 +16,11 @@ type dev_action_t       is
 
 ### Developer storage
 
-| Field        |          Type         | Hint                                           | Description                |
-| ------------ | :-------------------: | ---------------------------------------------- | -------------------------- |
-| dev\_address |       `address`       |                                                | Address of developer       |
-| dev\_fee     |         `nat`         | (float) multiplied by `fee_denominator` (1e10) | fee rate that goes to dev. |
-| dev\_lambdas | `big_map(nat, bytes)` |                                                | Developer action lambdas   |
+| Field        |          Type         | Hint                                             | Description                |
+| ------------ | :-------------------: | ------------------------------------------------ | -------------------------- |
+| dev\_address |       `address`       |                                                  | Address of developer       |
+| dev\_fee     |         `nat`         | (decimal) multiplied by `fee_denominator` (1e10) | fee rate that goes to dev. |
+| dev\_lambdas | `big_map(nat, bytes)` |                                                  | Developer action lambdas   |
 
 ```pascaligo
 type dev_storage_t      is [@layout:comb] record [
