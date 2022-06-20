@@ -56,14 +56,14 @@ type launch_exchange_t  is [@layout:comb] record [
 
 #### launch\_exchange\_t
 
-| Field            | Type                                       | Description                                                                 |
-| ---------------- | ------------------------------------------ | --------------------------------------------------------------------------- |
-| pair             | [tokens\_t](launch\_exchange.md#tokens\_t) | Tokens to launch exchange with                                              |
-| token\_a\_in     | nat                                        | Amount of token A for investment                                            |
-| token\_b\_in     | nat                                        | Amount of token B for investment                                            |
-| shares\_receiver | address                                    | Receiver of LP tokens                                                       |
-| candidate        | key\_hash                                  | Baker for voting (is used only in time of TOK/TEZ exchanges launch)         |
-| deadline         | timestamp                                  | The time until which the transaction remains valid and will not be rejected |
+| Field            | Type                                       | Description                                                                            |
+| ---------------- | ------------------------------------------ | -------------------------------------------------------------------------------------- |
+| pair             | [tokens\_t](launch\_exchange.md#tokens\_t) | Tokens to launch exchange with                                                         |
+| token\_a\_in     | nat                                        | Amount of token A for investment                                                       |
+| token\_b\_in     | nat                                        | Amount of token B for investment                                                       |
+| shares\_receiver | address                                    | Receiver of LP tokens                                                                  |
+| candidate        | key\_hash                                  | Baker for voting (is used only in case of TOK/TEZ exchanges launch). Ignored otherwise |
+| deadline         | timestamp                                  | The time until which the transaction remains valid and will not be rejected            |
 
 ### Usage
 
@@ -77,7 +77,7 @@ Also don't forget to add the [DexCore](../../) contract as the operator for your
 {% tab title="🌮 Taquito" %}
 ```javascript
 const dexCoreAddress = "KT1...";
-const parmas = {
+const params = {
     pair: {
         token_a: {
             fa12: "KT1...",
@@ -93,12 +93,16 @@ const parmas = {
     deadline: String(Date.parse((await tezos.rpc.getBlockHeader()).timestamp) / 1000 + 100),
 };
 const dexCore = await tezos.contract.at(dexCoreAddress);
-const operation = await dexCore.methodsObject.launch_exchange(parmas).send({ amount: parmas.token_b_in, mutez: true });
+const operation = await dexCore.methodsObject.launch_exchange(params).send({ amount: params.token_b_in, mutez: true });
 
 await operation.confirmation();
 ```
 {% endtab %}
 {% endtabs %}
+
+{% hint style="info" %}
+Pass `candidate: "tz1ZZZZZZZZZZZZZZZZZZZZZZZZZZZZNkiRg"`in case of launching TOK/TOK exchange
+{% endhint %}
 
 ### Errors
 
