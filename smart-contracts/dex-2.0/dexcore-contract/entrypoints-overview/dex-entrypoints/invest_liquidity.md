@@ -21,9 +21,9 @@ type invest_liquidity_t is [@layout:comb] record [
 | Field            | Type               | Description                                                                 |
 | ---------------- | ------------------ | --------------------------------------------------------------------------- |
 | pair\_id         | token\_id\_t (nat) | Identifier of the liquidity pool (pair)                                     |
-| token\_a\_in     | nat                | Amount of token A for investment                                            |
-| token\_b\_in     | nat                | Amount of token B for investment                                            |
-| shares           | nat                | Expected amount of LP tokens to receive by investor                         |
+| token\_a\_in     | nat                | Max amount of token A allowed to be spent                                   |
+| token\_b\_in     | nat                | Max amount of token B allowed to be spent                                   |
+| shares           | nat                | Amount of LP tokens to be acquired                                          |
 | shares\_receiver | address            | Receiver of LP tokens                                                       |
 | candidate        | key\_hash          | Baker for voting (is used only in time of investment to TOK/TEZ exchanges)  |
 | deadline         | timestamp          | The time until which the transaction remains valid and will not be rejected |
@@ -56,6 +56,10 @@ await operation.confirmation();
 ```
 {% endtab %}
 {% endtabs %}
+
+{% hint style="info" %}
+Pass `candidate: "tz1ZZZZZZZZZZZZZZZZZZZZZZZZZZZZNkiRg"`in case of TOK/TOK exchange
+{% endhint %}
 
 ### Errors
 
